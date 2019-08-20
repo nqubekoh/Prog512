@@ -8,3 +8,5 @@ Dear all, Please note:
 2.I have uploaded CA test 1 timetable
 
 3.since we are only left with one week of lectures before your CA test 1, we cant be able to go over everything in class. So i kindly ask everyone of you to please go through Topic 1 up to 3(Scope for test 1) on their own so that when we meet in class i'll take questions that you might have and give you a small class test to prepare you for CATest which is Next week ..Thanks..
+
+4.video link to help with your assignment https://youtu.be/IShHHzwaNz8

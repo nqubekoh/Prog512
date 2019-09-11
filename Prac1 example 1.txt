@@ -1,0 +1,42 @@
+
+Public Class ColorForm
+    Inherits System.Windows.Forms.Form
+
+    Dim x = 45
+    Dim y = 20
+    ' color for back rectangle 
+    Private mBehindColor As Color = Color.Wheat
+
+    'overrides Form OnPaint method 
+    Protected Overrides Sub OnPaint(ByVal e As PaintEventArgs)
+
+        Dim graphicsObject As Drawing.Graphics = e.Graphics ' get graphics 
+
+        Dim textBrush As SolidBrush = New SolidBrush(Color.Black) ' create text brush 
+        Dim brush As SolidBrush = New SolidBrush(Color.White)    'create solid brush 
+        
+        ' draw white background 
+        graphicsObject.FillRectangle(brush, 4, 4, 275, 250)
+
+        ' display name of behindColor 
+        graphicsObject.DrawString(mBehindColor.Name, Me.Font, textBrush, 40, 5)
+
+        ' set brush color and display first rectangle 
+        brush.Color = mBehindColor
+        graphicsObject.FillRectangle(brush, x, y, 150, 120)
+
+        ' set brush color and display second rectangle 
+        brush.Color = Color.Red
+        graphicsObject.FillRectangle(brush, x + 150, y + 120, 70, 70)
+
+        'creating points
+        Dim pt1 As System.Drawing.Point = New Point(195, 140)
+        Dim pt2 As System.Drawing.Point = New Point(100, 200)
+
+        'drawing a line
+        graphicsObject.DrawLine(Pens.Black, pt1, pt2)
+
+    End Sub
+
+
+End Class

@@ -3,8 +3,7 @@ Visual Basic
 
 Dear all, Please note:
 
-please keep checking this section for updates and notices 
+I have uploaded chapter 6 slides
 
-Dit we have a prac at 9 floor lab today Thursday.  
 
 ..Thanks.
